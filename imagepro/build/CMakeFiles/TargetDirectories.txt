@@ -1,0 +1,3 @@
+/home/diego/eda/tarea2/eda_cpp/imagepro/build/CMakeFiles/imagepro.dir
+/home/diego/eda/tarea2/eda_cpp/imagepro/build/CMakeFiles/edit_cache.dir
+/home/diego/eda/tarea2/eda_cpp/imagepro/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+# ninja log v5
+1	53	1728250008315572530	CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o	8cf89deb7b84e4d6
+1	53	1728250008315572530	CMakeFiles/imagepro.dir/src/listofregion.cpp.o	c07d33b18e6bdf60
+1	53	1728250008315572530	CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o	7ed70c5aa5686b2d
+2	53	1728250008315572530	CMakeFiles/imagepro.dir/src/region.cpp.o	bc88752a1860e71
+1	53	1728250008315572530	CMakeFiles/imagepro.dir/src/noderegion.cpp.o	af736893de3c9f5a
+1	241	1728250008505572485	CMakeFiles/imagepro.dir/imagepro.cpp.o	9c7403d3aa65526f
+1	253	1728250008515572481	CMakeFiles/imagepro.dir/src/image.cpp.o	e89803615afff4bf

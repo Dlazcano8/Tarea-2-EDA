@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "imagepro"
+			"path" : "1"
 		}
 	],
 	"backtrace" : 1,
@@ -42,6 +42,9 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-g"
+				},
+				{
 					"fragment" : "-std=gnu++11"
 				}
 			],
@@ -74,11 +77,15 @@
 			]
 		}
 	],
-	"id" : "imagepro::@6890427a1f51a3e7e1df",
+	"id" : "1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -86,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "imagepro",
-	"nameOnDisk" : "imagepro",
+	"name" : "1",
+	"nameOnDisk" : "1",
 	"paths" : 
 	{
 		"build" : ".",

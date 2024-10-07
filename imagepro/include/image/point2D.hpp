@@ -15,8 +15,8 @@ public:
     void setX(int _x);
     void setY(int _y);
 
-    int getX();
-    int getY();
+    int getX() const;
+    int getY() const;
 
     ~Point2D(); 
 };

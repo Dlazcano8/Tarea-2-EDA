@@ -1,4 +1,4 @@
-CMakeFiles/imagepro.dir/src/image.cpp.o: \
+CMakeFiles/1.dir/src/image.cpp.o: \
  /home/diego/eda/tarea2/eda_cpp/imagepro/src/image.cpp \
  /usr/include/stdc-predef.h \
  /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/image.hpp \

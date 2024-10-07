@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/imagepro.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/imagepro.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/imagepro.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/image.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/image.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/image.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/listofpoint2d.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/listofpoint2d.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/listofpoint2d.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/listofregion.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/listofregion.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/listofregion.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/nodepoint2d.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/nodepoint2d.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/nodepoint2d.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/noderegion.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/noderegion.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/noderegion.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/point2D.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp"
+},
+{
+  "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/region.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/region.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/region.cpp"
+}
+]

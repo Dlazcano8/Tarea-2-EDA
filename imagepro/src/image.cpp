@@ -6,15 +6,16 @@
 
 namespace image{
 
-    Image::Image(): width(0), height(0), th_value(120), data(nullptr){
+
+    Image::Image(): width(0), height(0), th_value(100), data(nullptr){
 
     }
 
-    Image::Image(int w, int h): width(w), height(h), th_value(120),  data(nullptr){
+    Image::Image(int w, int h): width(w), height(h), th_value(100),  data(nullptr){
 
     }
 
-    Image::Image(int w, int h, uchar* _data): width(w), height(h), th_value(120), data(_data){
+    Image::Image(int w, int h, uchar* _data): width(w), height(h), th_value(100), data(_data){
        threshold();
     }
 

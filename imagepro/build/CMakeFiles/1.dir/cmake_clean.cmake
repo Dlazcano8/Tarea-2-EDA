@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/1.dir/src/nodepoint2d.cpp.o.d"
   "CMakeFiles/1.dir/src/noderegion.cpp.o"
   "CMakeFiles/1.dir/src/noderegion.cpp.o.d"
-  "CMakeFiles/1.dir/src/point2D.cpp.o"
-  "CMakeFiles/1.dir/src/point2D.cpp.o.d"
+  "CMakeFiles/1.dir/src/point2d.cpp.o"
+  "CMakeFiles/1.dir/src/point2d.cpp.o.d"
   "CMakeFiles/1.dir/src/region.cpp.o"
   "CMakeFiles/1.dir/src/region.cpp.o.d"
 )

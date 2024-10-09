@@ -127,9 +127,16 @@ CMakeFiles/1.dir/src/image.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/fstream \
- /usr/include/c++/11/istream /usr/include/c++/11/ios \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/basic_string.tcc \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/listofregion.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/noderegion.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/region.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/listofpoint2d.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/nodepoint2d.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/point2d.hpp \
+ /usr/include/c++/11/fstream /usr/include/c++/11/istream \
+ /usr/include/c++/11/ios /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
  /usr/include/c++/11/bits/ios_base.h \
@@ -153,4 +160,12 @@ CMakeFiles/1.dir/src/image.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/iostream \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/bits/uses_allocator.h

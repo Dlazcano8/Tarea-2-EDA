@@ -3,6 +3,8 @@
 #include <iostream>
 #include <cassert>
 #include <cstring>
+#include <vector>
+#include <queue>
 
 namespace image{
 
@@ -54,8 +56,61 @@ namespace image{
         }
     }
 
-    Image::~Image(){
+    void Image::getRegions() {
+        std::vector<std::vector<bool>> visited(height, std::vector<bool>(width, false));
+        int regionId = 1;
 
+        auto isValid = [&](int row, int col) -> bool {
+            return row >= 0 && row < height && col >= 0 && col < width && getValue(row, col) == 1 && !visited[row][col];
+        };
+
+        for (int row = 0; row < height; ++row) {
+            for (int col = 0; col < width; ++col) {
+                if (getValue(row, col) == 1 && !visited[row][col]) {
+
+                    Region* newRegion = new Region();
+                    newRegion->setID(regionId);
+
+                    std::queue<Point2D> q;
+                    q.push(Point2D(row, col));
+                    visited[row][col] = true;
+
+                    while (!q.empty()) {
+                        Point2D p = q.front();
+                        q.pop();
+                        newRegion->addPoint(p);
+
+                        std::vector<Point2D> neighbors = {
+                            Point2D(p.getX() - 1, p.getY()),
+                            Point2D(p.getX() + 1, p.getY()),
+                            Point2D(p.getX(), p.getY() - 1),
+                            Point2D(p.getX(), p.getY() + 1)
+                        };
+
+                        for (const auto& neighbor : neighbors) {
+                            if (isValid(neighbor.getX(), neighbor.getY())) {
+                                q.push(neighbor);
+                                visited[neighbor.getX()][neighbor.getY()] = true;
+                            }
+                        }
+                    }
+
+                    regions.addRegion(*newRegion);
+                    regionId++;
+                }
+            }
+        }
+
+        regions.assignRegionIDs();
+        std::cout << "Número total de regiones detectadas: " << regions.getRegionCount() << std::endl;
+    }
+
+
+    Image::~Image() {
+        if (data != nullptr) {
+            delete[] data;  
+            data = nullptr; 
+        }
     }
 
     Image* Image::readImage(std::string &path){
@@ -89,7 +144,7 @@ namespace image{
             fin.close();
             char* ordered_data = new char[imagesize];
             //copy data in in a proper order            
-            std::cout<< "----------------" <<std::endl;
+            //std::cout<< "----------------" <<std::endl;
             for(int i = 0; i < height ; i++){
                 std::memcpy(ordered_data + width*i, data + width*(height - 1 - i ), width);
             }                    

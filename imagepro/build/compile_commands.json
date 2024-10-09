@@ -31,8 +31,8 @@
 },
 {
   "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",
-  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/point2D.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp",
-  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp"
+  "command": "/usr/bin/g++ -I/home/diego/eda/tarea2/eda_cpp/imagepro/include -g -std=gnu++11 -o CMakeFiles/1.dir/src/point2d.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp",
+  "file": "/home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp"
 },
 {
   "directory": "/home/diego/eda/tarea2/eda_cpp/imagepro/build",

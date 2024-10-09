@@ -273,29 +273,29 @@ src/noderegion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/noderegion.cpp.s
 .PHONY : src/noderegion.cpp.s
 
-src/point2D.o: src/point2D.cpp.o
-.PHONY : src/point2D.o
+src/point2d.o: src/point2d.cpp.o
+.PHONY : src/point2d.o
 
 # target to build an object file
-src/point2D.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2D.cpp.o
-.PHONY : src/point2D.cpp.o
+src/point2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2d.cpp.o
+.PHONY : src/point2d.cpp.o
 
-src/point2D.i: src/point2D.cpp.i
-.PHONY : src/point2D.i
+src/point2d.i: src/point2d.cpp.i
+.PHONY : src/point2d.i
 
 # target to preprocess a source file
-src/point2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2D.cpp.i
-.PHONY : src/point2D.cpp.i
+src/point2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2d.cpp.i
+.PHONY : src/point2d.cpp.i
 
-src/point2D.s: src/point2D.cpp.s
-.PHONY : src/point2D.s
+src/point2d.s: src/point2d.cpp.s
+.PHONY : src/point2d.s
 
 # target to generate assembly for a file
-src/point2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2D.cpp.s
-.PHONY : src/point2D.cpp.s
+src/point2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/src/point2d.cpp.s
+.PHONY : src/point2d.cpp.s
 
 src/region.o: src/region.cpp.o
 .PHONY : src/region.o
@@ -348,9 +348,9 @@ help:
 	@echo "... src/noderegion.o"
 	@echo "... src/noderegion.i"
 	@echo "... src/noderegion.s"
-	@echo "... src/point2D.o"
-	@echo "... src/point2D.i"
-	@echo "... src/point2D.s"
+	@echo "... src/point2d.o"
+	@echo "... src/point2d.i"
+	@echo "... src/point2d.s"
 	@echo "... src/region.o"
 	@echo "... src/region.i"
 	@echo "... src/region.s"

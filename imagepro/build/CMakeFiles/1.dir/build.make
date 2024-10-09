@@ -153,19 +153,19 @@ CMakeFiles/1.dir/src/noderegion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/src/noderegion.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/eda/tarea2/eda_cpp/imagepro/src/noderegion.cpp -o CMakeFiles/1.dir/src/noderegion.cpp.s
 
-CMakeFiles/1.dir/src/point2D.cpp.o: CMakeFiles/1.dir/flags.make
-CMakeFiles/1.dir/src/point2D.cpp.o: ../src/point2D.cpp
-CMakeFiles/1.dir/src/point2D.cpp.o: CMakeFiles/1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diego/eda/tarea2/eda_cpp/imagepro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/1.dir/src/point2D.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.dir/src/point2D.cpp.o -MF CMakeFiles/1.dir/src/point2D.cpp.o.d -o CMakeFiles/1.dir/src/point2D.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp
+CMakeFiles/1.dir/src/point2d.cpp.o: CMakeFiles/1.dir/flags.make
+CMakeFiles/1.dir/src/point2d.cpp.o: ../src/point2d.cpp
+CMakeFiles/1.dir/src/point2d.cpp.o: CMakeFiles/1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diego/eda/tarea2/eda_cpp/imagepro/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/1.dir/src/point2d.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/1.dir/src/point2d.cpp.o -MF CMakeFiles/1.dir/src/point2d.cpp.o.d -o CMakeFiles/1.dir/src/point2d.cpp.o -c /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp
 
-CMakeFiles/1.dir/src/point2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.dir/src/point2D.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp > CMakeFiles/1.dir/src/point2D.cpp.i
+CMakeFiles/1.dir/src/point2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.dir/src/point2d.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp > CMakeFiles/1.dir/src/point2d.cpp.i
 
-CMakeFiles/1.dir/src/point2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/src/point2D.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp -o CMakeFiles/1.dir/src/point2D.cpp.s
+CMakeFiles/1.dir/src/point2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/src/point2d.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp -o CMakeFiles/1.dir/src/point2d.cpp.s
 
 CMakeFiles/1.dir/src/region.cpp.o: CMakeFiles/1.dir/flags.make
 CMakeFiles/1.dir/src/region.cpp.o: ../src/region.cpp
@@ -189,7 +189,7 @@ CMakeFiles/1.dir/src/region.cpp.s: cmake_force
 "CMakeFiles/1.dir/src/listofregion.cpp.o" \
 "CMakeFiles/1.dir/src/nodepoint2d.cpp.o" \
 "CMakeFiles/1.dir/src/noderegion.cpp.o" \
-"CMakeFiles/1.dir/src/point2D.cpp.o" \
+"CMakeFiles/1.dir/src/point2d.cpp.o" \
 "CMakeFiles/1.dir/src/region.cpp.o"
 
 # External object files for target 1
@@ -201,7 +201,7 @@ CMakeFiles/1.dir/src/region.cpp.s: cmake_force
 1 : CMakeFiles/1.dir/src/listofregion.cpp.o
 1 : CMakeFiles/1.dir/src/nodepoint2d.cpp.o
 1 : CMakeFiles/1.dir/src/noderegion.cpp.o
-1 : CMakeFiles/1.dir/src/point2D.cpp.o
+1 : CMakeFiles/1.dir/src/point2d.cpp.o
 1 : CMakeFiles/1.dir/src/region.cpp.o
 1 : CMakeFiles/1.dir/build.make
 1 : CMakeFiles/1.dir/link.txt

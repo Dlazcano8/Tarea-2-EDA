@@ -1,7 +1,10 @@
-#include "image/image.hpp"    
 #include <iostream>                  
 #include <unordered_map>      
-#include <string>             
+#include <string>      
+
+#include "image/image.hpp" 
+#include "image/region.hpp"
+#include "image/point2d.hpp"
 
 using namespace std;
 
@@ -17,6 +20,27 @@ int main() {
 
     cout << ">> Bienvenido a ImagePro" << endl;
 
+    std::string path = "../images/1.bmp";
+    image::Image* im1 = image::Image::readImage(path);
+
+    if (im1 == nullptr) {
+        cout << "Error al leer la imagen." << endl;
+    return 1;
+    }
+
+    im1->show();
+
+    im1->getRegions();
+
+    cout << ">> Mostrando todas las regiones detectadas visualmente:" << endl;
+    im1->regions.showRegions(im1->getWidth(), im1->getHeight());  // Pasar ancho y altura
+
+
+    // Limpiar memoria
+    delete im1;
+
+
+/*
     while (true) {
         cout << ">> ";
         getline(cin, command); // Leer la entrada del usuario
@@ -56,6 +80,7 @@ int main() {
     for (auto& pair : images) {
         delete pair.second;  
     }
+*/
 
     return 0;
 }

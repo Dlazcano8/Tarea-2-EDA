@@ -1,5 +1,5 @@
 
-#include "image/point2D.hpp"   
+#include "image/point2d.hpp"   
 
 namespace image {  
 

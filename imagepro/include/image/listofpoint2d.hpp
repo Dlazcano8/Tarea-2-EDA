@@ -5,19 +5,25 @@
 #ifndef LISTOFPOINT2D_HPP
 #define LISTOFPOINT2D_HPP
 
-#include "point2D.hpp"
-#include <vector>
+#include "nodepoint2d.hpp"
+
 
 namespace image {
 
 class ListOfPoint2D {
 private:
-    std::vector<Point2D> points;
+    NodePoint2D* head = nullptr;
+    NodePoint2D* tail = nullptr;
 
 public:
-    ListOfPoint2D() = default;
-    void addPoint(const Point2D& point);  
-    void show() const;                    
+    ListOfPoint2D() {};
+    ~ListOfPoint2D();
+
+    void addPoint(const Point2D& p);
+    void show() const;
+    void clear();	
+
+    NodePoint2D* getHead() const { return head; }           
 };
 
 } 

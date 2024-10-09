@@ -91,8 +91,8 @@ build CMakeFiles/1.dir/src/noderegion.cpp.o: CXX_COMPILER__1_Debug /home/diego/e
   OBJECT_DIR = CMakeFiles/1.dir
   OBJECT_FILE_DIR = CMakeFiles/1.dir/src
 
-build CMakeFiles/1.dir/src/point2D.cpp.o: CXX_COMPILER__1_Debug /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp || cmake_object_order_depends_target_1
-  DEP_FILE = CMakeFiles/1.dir/src/point2D.cpp.o.d
+build CMakeFiles/1.dir/src/point2d.cpp.o: CXX_COMPILER__1_Debug /home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp || cmake_object_order_depends_target_1
+  DEP_FILE = CMakeFiles/1.dir/src/point2d.cpp.o.d
   FLAGS = -g -std=gnu++11
   INCLUDES = -I/home/diego/eda/tarea2/eda_cpp/imagepro/include
   OBJECT_DIR = CMakeFiles/1.dir
@@ -113,7 +113,7 @@ build CMakeFiles/1.dir/src/region.cpp.o: CXX_COMPILER__1_Debug /home/diego/eda/t
 #############################################
 # Link the executable 1
 
-build 1: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/imagepro.cpp.o CMakeFiles/1.dir/src/image.cpp.o CMakeFiles/1.dir/src/listofpoint2d.cpp.o CMakeFiles/1.dir/src/listofregion.cpp.o CMakeFiles/1.dir/src/nodepoint2d.cpp.o CMakeFiles/1.dir/src/noderegion.cpp.o CMakeFiles/1.dir/src/point2D.cpp.o CMakeFiles/1.dir/src/region.cpp.o
+build 1: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/imagepro.cpp.o CMakeFiles/1.dir/src/image.cpp.o CMakeFiles/1.dir/src/listofpoint2d.cpp.o CMakeFiles/1.dir/src/listofregion.cpp.o CMakeFiles/1.dir/src/nodepoint2d.cpp.o CMakeFiles/1.dir/src/noderegion.cpp.o CMakeFiles/1.dir/src/point2d.cpp.o CMakeFiles/1.dir/src/region.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/1.dir
   POST_BUILD = :

@@ -14,7 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/diego/eda/tarea2/eda_cpp/imagepro/src/listofregion.cpp" "CMakeFiles/1.dir/src/listofregion.cpp.o" "gcc" "CMakeFiles/1.dir/src/listofregion.cpp.o.d"
   "/home/diego/eda/tarea2/eda_cpp/imagepro/src/nodepoint2d.cpp" "CMakeFiles/1.dir/src/nodepoint2d.cpp.o" "gcc" "CMakeFiles/1.dir/src/nodepoint2d.cpp.o.d"
   "/home/diego/eda/tarea2/eda_cpp/imagepro/src/noderegion.cpp" "CMakeFiles/1.dir/src/noderegion.cpp.o" "gcc" "CMakeFiles/1.dir/src/noderegion.cpp.o.d"
-  "/home/diego/eda/tarea2/eda_cpp/imagepro/src/point2D.cpp" "CMakeFiles/1.dir/src/point2D.cpp.o" "gcc" "CMakeFiles/1.dir/src/point2D.cpp.o.d"
+  "/home/diego/eda/tarea2/eda_cpp/imagepro/src/point2d.cpp" "CMakeFiles/1.dir/src/point2d.cpp.o" "gcc" "CMakeFiles/1.dir/src/point2d.cpp.o.d"
   "/home/diego/eda/tarea2/eda_cpp/imagepro/src/region.cpp" "CMakeFiles/1.dir/src/region.cpp.o" "gcc" "CMakeFiles/1.dir/src/region.cpp.o.d"
   )
 

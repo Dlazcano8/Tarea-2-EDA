@@ -18,7 +18,8 @@ public:
     void addRegion(const Region& region);  
     void showRegions(int imageWidth, int imageHeight) const;
 	void showRegionSizes() const;              
-    int getRegionCount() const;            
+    int getRegionCount() const;
+    Region* getRegionById(int regionId) const;          
     void clear();       
 
     NodeRegion* getHead() const { return head; }

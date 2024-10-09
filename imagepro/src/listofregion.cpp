@@ -45,6 +45,17 @@ namespace image {
         return regionCount;
     }
 
+    Region* ListOfRegion::getRegionById(int regionId) const {
+        NodeRegion* current = head;
+        while (current != nullptr) {
+            if (current->region.getID() == regionId) {
+                return &(current->region);
+            }
+            current = current->next;
+        }
+        return nullptr;
+    }
+
     void ListOfRegion::clear() {
         NodeRegion* current = head;
         while (current != nullptr) {

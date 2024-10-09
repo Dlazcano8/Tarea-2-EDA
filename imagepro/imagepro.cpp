@@ -51,7 +51,8 @@ int main() {
                 std::cout << "Id " << id << " no encontrado." << std::endl;
             }
         } 
-            else if (command.substr(0, 10) == "getRegions") {
+        
+        else if (command.substr(0, 10) == "getRegions") {
             std::string id = trim(command.substr(10));
             auto it = images.find(id);
             if (it != images.end()) {
@@ -70,13 +71,35 @@ int main() {
             } else {
                 std::cout << "Id " << id << " no encontrado." << std::endl;
             }
-        } else {
-            std::cout << "Comando no reconocido." << std::endl;
+        } 
+        
+        else if (command.substr(0, 11) == "showRegion ") {
+            std::string rest = trim(command.substr(11));
+            size_t spacePos = rest.find(" ");
+            if (spacePos != std::string::npos) {
+                std::string imageId = trim(rest.substr(0, spacePos));
+                std::string regionIdStr = trim(rest.substr(spacePos + 1));
+                int regionId = std::stoi(regionIdStr);
+
+                auto it = images.find(imageId);
+                if (it != images.end()) {
+                    image::Region* region = it->second->regions.getRegionById(regionId);
+                    if (region != nullptr) {
+                        region->showRegion(it->second->getWidth(), it->second->getHeight());
+                    } else {
+                        std::cout << "No se encontró la región con ID: " << regionId << " en la imagen con ID: " << imageId << std::endl;
+                    }
+                } else {
+                    std::cout << "Id de imagen " << imageId << " no encontrado." << std::endl;
+                }
+            } else {
+                std::cout << "Formato incorrecto. Uso: showRegion <id_imagen> <id_region>" << std::endl;
+            }
         }
 
-
-
-        
+        else {
+            std::cout << "Comando no reconocido." << std::endl;
+        }
 
     }
 

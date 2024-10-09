@@ -20,27 +20,6 @@ int main() {
 
     cout << ">> Bienvenido a ImagePro" << endl;
 
-    std::string path = "../images/1.bmp";
-    image::Image* im1 = image::Image::readImage(path);
-
-    if (im1 == nullptr) {
-        cout << "Error al leer la imagen." << endl;
-    return 1;
-    }
-
-    im1->show();
-
-    im1->getRegions();
-
-    cout << ">> Mostrando todas las regiones detectadas visualmente:" << endl;
-    im1->regions.showRegions(im1->getWidth(), im1->getHeight());  // Pasar ancho y altura
-
-
-    // Limpiar memoria
-    delete im1;
-
-
-/*
     while (true) {
         cout << ">> ";
         getline(cin, command); // Leer la entrada del usuario
@@ -71,16 +50,40 @@ int main() {
             } else {
                 std::cout << "Id " << id << " no encontrado." << std::endl;
             }
+        } 
+            else if (command.substr(0, 10) == "getRegions") {
+            std::string id = trim(command.substr(10));
+            auto it = images.find(id);
+            if (it != images.end()) {
+
+                it->second->getRegions();
+                
+                int regionCount = it->second->regions.getRegionCount();
+                cout << "La imagen de id " << id << " tiene " << regionCount << " regiones." << endl;
+                
+                image::NodeRegion* currentRegion = it->second->regions.getHead();
+
+                while (currentRegion != nullptr) {
+                    std::cout << "Region " << currentRegion->region.getID() << " -> size " << currentRegion->region.getSize() << std::endl;
+                    currentRegion = currentRegion->next;
+                }
+            } else {
+                std::cout << "Id " << id << " no encontrado." << std::endl;
+            }
         } else {
             std::cout << "Comando no reconocido." << std::endl;
         }
+
+
+
+        
 
     }
 
     for (auto& pair : images) {
         delete pair.second;  
     }
-*/
+
 
     return 0;
 }

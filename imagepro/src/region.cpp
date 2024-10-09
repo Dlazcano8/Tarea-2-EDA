@@ -26,24 +26,23 @@ namespace image {
     }
 
     void Region::showRegion(int imageWidth, int imageHeight) const {
-        // Crear una matriz vacía para representar la región
+
         std::vector<std::vector<char>> regionMatrix(imageHeight, std::vector<char>(imageWidth, ' '));
 
-        // Rellenar la matriz con los puntos de la región
-        NodePoint2D* current = points.getHead();  // Usar el getter en lugar de acceder directamente a 'head'
+        NodePoint2D* current = points.getHead();  
         while (current != nullptr) {
             int x = current->point.getX();
             int y = current->point.getY();
             if (x >= 0 && x < imageHeight && y >= 0 && y < imageWidth) {
-                regionMatrix[x][y] = '*'; // Marcar el punto con '*'
+                regionMatrix[x][y] = '*'; 
             }
             current = current->next;
         }
 
-        // Mostrar la región
-        std::cout << "----------------------" << std::endl;
-        std::cout << "Region ID: " << id << ", Size: " << size << std::endl;
-        std::cout << "----------------------" << std::endl;
+        // // Mostrar la región
+        // std::cout << "----------------------" << std::endl;
+        // std::cout << "Region ID: " << id << ", Size: " << size << std::endl;
+        // std::cout << "----------------------" << std::endl;
         for (const auto& row : regionMatrix) {
             for (char pixel : row) {
                 std::cout << pixel;

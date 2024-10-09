@@ -102,7 +102,7 @@ namespace image{
         }
 
         regions.assignRegionIDs();
-        std::cout << "Número total de regiones detectadas: " << regions.getRegionCount() << std::endl;
+        //std::cout << "Número total de regiones detectadas: " << regions.getRegionCount() << std::endl;
     }
 
 

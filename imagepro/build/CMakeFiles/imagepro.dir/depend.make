@@ -1,2 +1,2 @@
-# Empty dependencies file for 1.
+# Empty dependencies file for imagepro.
 # This may be replaced when dependencies are built.

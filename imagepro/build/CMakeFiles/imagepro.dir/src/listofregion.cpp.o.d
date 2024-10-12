@@ -1,6 +1,8 @@
-CMakeFiles/1.dir/src/region.cpp.o: \
- /home/diego/eda/tarea2/eda_cpp/imagepro/src/region.cpp \
+CMakeFiles/imagepro.dir/src/listofregion.cpp.o: \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/src/listofregion.cpp \
  /usr/include/stdc-predef.h \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/listofregion.hpp \
+ /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/noderegion.hpp \
  /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/region.hpp \
  /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/listofpoint2d.hpp \
  /home/diego/eda/tarea2/eda_cpp/imagepro/include/image/nodepoint2d.hpp \
@@ -148,8 +150,4 @@ CMakeFiles/1.dir/src/region.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc
+ /usr/include/c++/11/bits/istream.tcc

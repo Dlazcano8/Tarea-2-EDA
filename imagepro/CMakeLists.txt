@@ -12,7 +12,7 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 # Crear el ejecutable a partir de todos los archivos fuente y el archivo principal imagepro.cpp
-add_executable(1 imagepro.cpp ${SOURCES})
+add_executable(imagepro imagepro.cpp ${SOURCES})
 
 # Incluir directorios de encabezado
-target_include_directories(1 PUBLIC ${PROJECT_SOURCE_DIR}/include)
+target_include_directories(imagepro PUBLIC ${PROJECT_SOURCE_DIR}/include)

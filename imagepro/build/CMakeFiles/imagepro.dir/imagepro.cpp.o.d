@@ -1,4 +1,4 @@
-CMakeFiles/1.dir/imagepro.cpp.o: \
+CMakeFiles/imagepro.dir/imagepro.cpp.o: \
  /home/diego/eda/tarea2/eda_cpp/imagepro/imagepro.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
